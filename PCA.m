@@ -32,4 +32,4 @@ FinalData = rowFeatureVectors*rowDataAdjust
 
 reconstructData = ( (rowFeatureVectors' * FinalData ) + repmat(mean(sample),sampleSize,1)' )'
 sample
-diff = sample - originalData
+diff = sample - reconstructData
