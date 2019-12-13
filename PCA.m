@@ -30,7 +30,6 @@ rowFeatureVectors = filteredEvectors'
 rowDataAdjust = centeredData'
 FinalData = rowFeatureVectors*rowDataAdjust
 
-originalData = ( (rowFeatureVectors' * FinalData ) + repmat(mean(sample),sampleSize,1)' )'
 reconstructData = ( (rowFeatureVectors' * FinalData ) + repmat(mean(sample),sampleSize,1)' )'
 sample
 diff = sample - originalData
