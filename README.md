@@ -1,7 +1,10 @@
 # PCA_matlab
 
 Sample data
-
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 |学生编号|语文|数学|物理|化学|英语|历史|
 1	84	65	61	72	79	81
 2	64	77	77	76	55	70
